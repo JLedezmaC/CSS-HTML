@@ -1,0 +1,16 @@
+@mixin practica1 {
+    background-color:green;
+}
+
+@mixin practica2{
+    color: black;
+    font-size: 12px;
+    line-height: 15px;
+}
+body{
+    @include practica1;
+}
+
+p{
+    @include practica2;
+}
