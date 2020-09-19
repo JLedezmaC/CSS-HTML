@@ -7,10 +7,22 @@
     font-size: 12px;
     line-height: 15px;
 }
+
+@mixin practica3{
+    color: #e69005;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    position: relative;
+    padding-left: 23px;
+}
 body{
     @include practica1;
 }
 
 p{
     @include practica2;
+}
+.read{
+    @include practica3;
 }

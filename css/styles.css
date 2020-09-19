@@ -21,6 +21,14 @@ p {
   font-size: 12px;
   line-height: 15px; }
 
+.read {
+  color: #e69005;
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: none;
+  position: relative;
+  padding-left: 23px; }
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   border-top: 17px solid #090909;
@@ -35,31 +43,6 @@ body {
   content: "";
   clear: both;
   display: table; }
-
-.block-border {
-  padding: 20px 0 15px;
-  border-bottom: 1px solid #c0c0c0; }
-
-#logo {
-  float: left;
-  width: 183px; }
-
-h2 {
-  font-size: 18px;
-  padding-left: 30px;
-  background-position: 0 7px; }
-
-.blackline {
-  border-bottom: 6px solid #090909; }
-
-p {
-  font-size: 12px;
-  line-height: 15px; }
-
-#menu {
-  float: right;
-  position: relative;
-  width: 656px; }
 
 #e-mail {
   font-size: 13px;
@@ -185,3 +168,28 @@ p {
     background-color: burlywood; }
   .paula .fabian {
     background-color: coral; }
+
+.block-border {
+  padding: 20px 0 15px;
+  border-bottom: 1px solid #c0c0c0; }
+
+#logo {
+  float: left;
+  width: 183px; }
+
+h2 {
+  font-size: 18px;
+  padding-left: 30px;
+  background-position: 0 7px; }
+
+.blackline {
+  border-bottom: 6px solid #090909; }
+
+p {
+  font-size: 12px;
+  line-height: 15px; }
+
+#menu {
+  float: right;
+  position: relative;
+  width: 656px; }
